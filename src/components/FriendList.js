@@ -51,7 +51,7 @@ const FriendList = () => {
     };
 
     const handleClickNext = () => {
-        iterator < (arrFriends.length-4) && setIterator(iterator+4);
+        iterator < (tempArr.length-4) && setIterator(iterator+4);
     };
 
     const handleClickPrevious = () => {
